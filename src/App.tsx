@@ -6,9 +6,11 @@ function App() {
     <>
       <GlobalStyles />
       <div className="App">
-        <header className="App-header">
-          <p>Oi</p>
-        </header>
+        <h1>
+          make<span style={{ color: "#12b5e8" }}>path</span>
+        </h1>
+        <br />
+        <p>Open Source Machine Learning Infographic</p>
       </div>
     </>
   );
