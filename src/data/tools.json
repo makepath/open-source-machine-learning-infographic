@@ -7,7 +7,7 @@
     "image": null,
     "description": "Weka includes tools for data preparation, classification, regression, clustering, and other machine learning algorithms used for data mining.",
     "releaseYear": "1993",
-    "language": "Java",
+    "language": ["Java"],
     "creators": "University of Waikato, NZ",
     "developerQuote": "",
     "fileFormats": ["Data preparation", "Model optimization", "Classical Machine Learning"]
@@ -20,7 +20,7 @@
     "image": "https://gisgeography.com/wp-content/uploads/2016/07/GRASS-GIS-logo-2.png",
     "description": "Shogun offers methods for efficient and unified machine learning.",
     "releaseYear": "1999",
-    "language": "Python, Octave, Java/Scala, Ruby, C#, R, Perl, JavaScript",
+    "language": ["Python", "Octave", "Java/Scala", "Ruby", "C#", "R", "Perl", "JavaScript"],
     "creators": "NumFOCUS",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Classical Machine Learning"]
@@ -33,7 +33,7 @@
     "image": "https://www.esipfed.org/wp-content/uploads/2014/05/logo_bluegreen_txt.jpg",
     "description": "OpenCV is a computer vision and machine learning library that provides common infrastructure to accelerate machine perception.",
     "releaseYear": "2000",
-    "language": "C++, Python, Java and MATLAB",
+    "language": ["C++", "Python", "Java", "MATLAB"],
     "creators": "Intel",
     "developerQuote": "",
     "fileFormats": ["Data preparation", "Feature engineering"]
@@ -46,7 +46,7 @@
     "image": "https://registry.opendata.aws/img/logos/unidata-logo.png",
     "description": "Torch is a scientific computing framework that supports machine learning algorithms on GPUs.",
     "releaseYear": "2002",
-    "language": "Lua, LuaJIT, C, CUDA, C++",
+    "language": ["Lua", "LuaJIT", "C", "CUDA", "C++"],
     "creators": "Ronan Collobert, Samy Bengio, Johnny Mariéthoz",
     "developerQuote": "",
     "fileFormats": ["Model development", "Neural Networks", "Predictions", "Training"]
@@ -59,7 +59,7 @@
     "image": null,
     "description": "R-Spatial is an ecosystem of code and packages delevoped using R for working with and adding value to spatial data. Packages include, but are not limited to, sf, stars, mapview, gstat, spdep, raster and terra.",
     "releaseYear": "2003",
-    "language": "R",
+    "language": ["R"],
     "creators": "R-Spatial community",
     "developerQuote": "",
     "fileFormats": ["Data preparation", "Classical Machine Learning"]
@@ -72,7 +72,7 @@
     "image": "https://demo.mapserver.org/images/mapserver-logo.jpg",
     "description": "Polyaxon enables building, trainning, and monitoring of large scale deep learning apps.",
     "releaseYear": "2004",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Mourafiq, Mourad",
     "developerQuote": "",
     "fileFormats": ["Scaling, Model optimization", "Deep Learning"]
@@ -85,7 +85,7 @@
     "image": "https://www.ogc.org/pub/www/files/ogc_logo_0.jpg",
     "description": "scikit-learn is a Python module for machine learning built on top of SciPy.",
     "releaseYear": "2007",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "David Cournapeau",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Classical Machine Learning"]
@@ -98,7 +98,7 @@
     "image": null,
     "description": "Theano lets you define, optimize, and evaluate mathematical expressions with multi-dimensional arrays.",
     "releaseYear": "2007",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "University of Montreal",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Classical Machine Learning"]
@@ -111,7 +111,7 @@
     "image": "https://reference.wolfram.com/language/ref/format/Files/GeoTIFF.en/O_1.png",
     "description": "Accord.NET is a machine learning framework combined with audio and image processing libraries.",
     "releaseYear": "2007",
-    "language": "C#",
+    "language": ["C#"],
     "creators": "Cesar De Souza",
     "developerQuote": "",
     "fileFormats": ["Data preparation", "Model optimization", "Classical Machine Learning"]
@@ -124,7 +124,7 @@
     "image": "https://www.osgeo.org/wp-content/uploads/GDAL-1_740x412_acf_cropped-370x206.png",
     "description": "Apache Mahout produces free implementations of distributed and scalable machine learning algorithms.",
     "releaseYear": "2009",
-    "language": "Java, Scala",
+    "language": ["Java", "Scala"],
     "creators": "Apache Software Foundation",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Scaling"]
@@ -137,7 +137,7 @@
     "image": "https://en.wikipedia.org/wiki/Geography_Markup_Language#/media/File:Simple_vector_map.svg",
     "description": "Caffe provides a deep learning framework designed with expression, speed, and modularity.",
     "releaseYear": "2013",
-    "language": "C++, Python",
+    "language": ["C++", "Python"],
     "creators": "Berkeley AI Research",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Deep Learning"]
@@ -150,7 +150,7 @@
     "image": null,
     "description": "GoLearn is a machine learning library for Go.",
     "releaseYear": "2014",
-    "language": "Go",
+    "language": ["Go"],
     "creators": "Stephen James Whitworth",
     "developerQuote": "",
     "fileFormats": ["Model development"]
@@ -163,7 +163,7 @@
     "image": "https://www.osgeo.org/wp-content/uploads/GeoServer.png",
     "description": "GoBrain provides Neural Networks written in Go.",
     "releaseYear": "2014",
-    "language": "Go",
+    "language": ["Go"],
     "creators": "Jonas Trevisan",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Deep Learning"]
@@ -176,7 +176,7 @@
     "image": "https://developers.google.com/kml/documentation/images/landing_page.png",
     "description": "H2O is a platform for distributed and scalable machine learning. It works well with big data tech like Hadoop and Spark.",
     "releaseYear": "2015",
-    "language": "R, Python, Scala, Java, JSON",
+    "language": ["R", "Python", "Scala", "Java", "JSON"],
     "creators": "H2O",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Scaling", "Classical Machine Learning", "Deep Learning"]
@@ -189,7 +189,7 @@
     "image": "https://www.osgeo.org/wp-content/uploads/GeoServer.png",
     "description": "Oryx 2 specializes in real-time large scale machine learning. Not only a framework for building applications, it includes packaged end-to-end apps for collaborative filtering, classification, regression, and clustering. ",
     "releaseYear": "2015",
-    "language": "Java",
+    "language": ["Java"],
     "creators": "Sean Owen",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Scaling", "Classical Machine Learning"]
@@ -202,7 +202,7 @@
     "image": "https://en.wikipedia.org/wiki/QGIS#/media/File:QGIS_logo,_2017.svg",
     "description": "MLlib is a scalable machine learning library. It fits into Spark's APIs and interoperates with NumPy in Python.",
     "releaseYear": "2015",
-    "language": "Java, Python",
+    "language": ["Java", "Python"],
     "creators": "Apache Software Foundation",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Scaling", "Classical Machine Learning"]
@@ -215,7 +215,7 @@
     "image": "",
     "description": "TensorFlow is an end-to-end platform that provides a flexible ecosystem of tools for state-of-the-art machine learning.",
     "releaseYear": "2015",
-    "language": "Python, C++, Haskell, Java, Go, Rust, JavaScript",
+    "language": ["Python", "C++", "Haskell", "Java", "Go", "Rust", "JavaScript"],
     "creators": "Google",
     "developerQuote": "",
     "fileFormats": [
@@ -234,7 +234,7 @@
     "image": "https://rapidlasso.files.wordpress.com/2014/01/kidarview.png ",
     "description": "Keras offers consistent and simple APIs to reduce cognitive load.",
     "releaseYear": "2015",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Google",
     "developerQuote": "",
     "fileFormats": ["Model development", "Model optimization", "Deep Learning", "API"]
@@ -247,7 +247,7 @@
     "image": "https://www.sylvaindurand.org/img/carto/density.jpg",
     "description": "Dask is a flexible parallel computing library for analytics.",
     "releaseYear": "2015",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Matt Rocklin",
     "developerQuote": "",
     "fileFormats": ["Scaling"]
@@ -260,7 +260,7 @@
     "image": "https://www.turismo.gal/imaxes/mdaw/mtaw/~edisp/~extract/TURGA100631~1~staticrendition/tg_sinescalar.jpg",
     "description": "Cortex is a cloud infrastructure for scalable machine learning.",
     "releaseYear": "2016",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Grafana Labs",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Scaling"]
@@ -273,7 +273,7 @@
     "image": null,
     "description": "Microsoft Cognitive Toolkit is a toolkit for commercial-grade distributed deep learning. Users can combine popular model types, and implement algorithms across multiple servers and GPUs.",
     "releaseYear": "2016",
-    "language": "Python, C++, BrainScript",
+    "language": ["Python", "C++", "BrainScript"],
     "creators": "Microsoft",
     "developerQuote": "",
     "fileFormats": ["Model development", "Model optimization", "Deep Learning, Scaling"]
@@ -286,7 +286,7 @@
     "image": null,
     "description": "PyTorch is a machine learning framework for applications such as computer vision and natural language processing.",
     "releaseYear": "2016",
-    "language": "Python, C++",
+    "language": ["Python", "C++"],
     "creators": "Facebook AI Research",
     "developerQuote": "",
     "fileFormats": [
@@ -304,7 +304,7 @@
     "image": "https://gisgeography.com/wp-content/uploads/2016/01/SAGA-3D-Mapping-Anaglyph.png",
     "description": "Featuretools is a framework for automated feature engineering that excels at changing temporal and relational datasets into feature matrices.",
     "releaseYear": "2017",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Alteryx",
     "developerQuote": "",
     "fileFormats": ["Data preparation"]
@@ -317,7 +317,7 @@
     "image": null,
     "description": "BigDL is a distributed deep learning library for Apache Spark. Users can write deep learning apps as Spark programs.",
     "releaseYear": "2017",
-    "language": "Scala, Python, Java",
+    "language": ["Scala", "Python", "Java"],
     "creators": "Jason (Jinquan) Dai, Yiheng Wang, Xin Qiu, Ding Ding, Yao Zhang,  Yanzhang Wang, Xianyan Jia, Li (Cherry) Zhang, Yan Wan, Zhichao Li, Jiao Wang, Shengsheng Huang, Zhongyuan Wu, Yang Wang,  Yuhao Yang, Bowen She, Dongjie Shi, Qi Lu, Kai Huang, and Guoqiong Song.",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Scaling"]
@@ -330,7 +330,7 @@
     "image": "https://gisgeography.com/wp-content/uploads/2016/01/SAGA-3D-Mapping-Anaglyph.png",
     "description": "Ray provides a universal API for building distributed applications.",
     "releaseYear": "2017",
-    "language": "Python, C++",
+    "language": ["Python", "C++"],
     "creators": "anyscale",
     "developerQuote": "",
     "fileFormats": ["Model development", "Model optimization", "Reinforcement Learning", "Scaling"]
@@ -343,7 +343,7 @@
     "image": "http://networkx.github.io/_static/networkx_logo.svg",
     "description": "TVM bridges productivity-focused deep learning with performance and efficiency-focused hardware backends.",
     "releaseYear": "2017",
-    "language": "Python, C++",
+    "language": ["Python", "C++"],
     "creators": "OctoML",
     "developerQuote": "",
     "fileFormats": ["Model development", "Scaling", "Deep Learning"]
@@ -356,7 +356,7 @@
     "image": "https://i.ytimg.com/vi/MTfpQ2cG9CU/maxresdefault.jpg",
     "description": "Data Version Control (DVC) is for data science and machine learning projects.",
     "releaseYear": "2017",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Iterative",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Data preparation"]
@@ -369,7 +369,7 @@
     "image": "https://numpy.org/images/logos/numpy.svg",
     "description": "MLflow streamlines machine learning dev by tracking experiments, packaging code, and sharing/deploying models.",
     "releaseYear": "2018",
-    "language": "Python, R, Java/Scala",
+    "language": ["Python", "R", "Java", "Scala"],
     "creators": "Databricks",
     "developerQuote": "",
     "fileFormats": [
@@ -388,7 +388,7 @@
     "image": "https://img-a.udemycdn.com/course/750x422/305714_e8f2_3.jpg",
     "description": "Transformers provides machine learning for Pytorch, TensorFlow, and JAX. There are thousands of pretrained models for tasks like text, vision, and audio tasks.",
     "releaseYear": "2018",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Hugging Face",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Deep Learning"]
@@ -401,7 +401,7 @@
     "image": "https://miro.medium.com/max/12224/1*lJdtMMP8Q0xuIiO3v_xVwQ.png",
     "description": "Compose is for automated prediction engineering. With Compose you can structure predictions and generate labels for supervised learning.",
     "releaseYear": "2019",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Alteryx",
     "developerQuote": "",
     "fileFormats": ["Data preparation"]
@@ -414,7 +414,7 @@
     "image": "https://secureservercdn.net/198.71.233.197/hb9.c63.myftpupload.com/wp-content/uploads/2020/04/RTree.png",
     "description": "Gradio is for creating web-based UIs that enabled users to interact with models in real time. Makes model demos easy.",
     "releaseYear": "2019",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Gradio",
     "developerQuote": "",
     "fileFormats": ["UI", "API"]
@@ -427,7 +427,7 @@
     "image": "https://lh3.googleusercontent.com/proxy/bm_8zsnKwpkH6eC0Mfcb2Pu9kjmjbL-ZZ3BSq4fUllTh24_5-9Oxf0r5Ezrtd7hG1NRLO0xiIDD8hasBMhn8qrO19DOAyN7xmf4Z",
     "description": "PyTorch Lightning is a research framework for scaling models.",
     "releaseYear": "2019",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "William Falcon",
     "developerQuote": "",
     "fileFormats": [
@@ -445,7 +445,7 @@
     "image": null,
     "description": "feast is a feature store for machine learning applications, and a path to analytic data production for model training.",
     "releaseYear": "2019",
-    "language": "Java",
+    "language": ["Java"],
     "creators": "Tecton",
     "developerQuote": "",
     "fileFormats": ["Feature engineering"]
@@ -458,7 +458,7 @@
     "image": null,
     "description": "Continuous Machine Learning (CML) is a tool for implementing continuous integration and delivery. It can automate development workflows like: machine provisioning, model training, and comparing ML experiements. ",
     "releaseYear": "2020",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Iterative",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Data preparation"]
@@ -484,7 +484,7 @@
     "image": "https://trac.osgeo.org/geos/chrome/site/geos.gif",
     "description": "fastai is a library for deep learning results, and lets researchers mix in low level components to build new approaches.",
     "releaseYear": "2020",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Jeremy Howard and Dr Rachel Thomas",
     "developerQuote": "",
     "fileFormats": ["Model development", "Model optimization", "Deep Learning"]
@@ -497,7 +497,7 @@
     "image": null,
     "description": "auto-sklearn takes over algorithm selection and hyperparmater tuning form the user, leveraging Bayesian optimization, meta-learning, and ensemble construction. ",
     "releaseYear": "2021",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Matthias Feurer, Katharina Eggensperger, Stefan Falkner, Marius Lindauer, and Frank Hutter.",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Classical Machine Learning"]

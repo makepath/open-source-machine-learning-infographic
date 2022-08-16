@@ -24,6 +24,26 @@ export class Filters extends Component {
 
   render() {
     const { filters } = this.props.store;
+
+    const languages = this.props.store.tools.reduce((acc, curr) => {
+      if (!acc.includes(curr.language)) {
+        acc.push(curr.language);
+      }
+      return acc;
+    }, []);
+
+    //Get a list of languages inside languages array
+    const languageOptions = languages.map(language => (
+      <Button
+        key={language}
+        variant="contained"
+        color="primary"
+        onClick={() => this.handleCategoryClick(language)}
+      >
+        {language}
+      </Button>
+    ));
+
     return (
       <div className="filters">
         <div className="search">
@@ -39,7 +59,7 @@ export class Filters extends Component {
           />
         </div>
         <div className="categories">
-          <h4>Category</h4>
+          <h4>Language</h4>
           <Button
             className={filters.categories.vector ? 'vector selected' : 'vector'}
             onClick={() => this.handleCategoryClick('vector')}
@@ -57,42 +77,6 @@ export class Filters extends Component {
             onClick={() => this.handleCategoryClick('both')}
           >
             Both
-          </Button>
-          <Button
-            className={filters.categories.other ? 'other selected' : 'other'}
-            onClick={() => this.handleCategoryClick('other')}
-          >
-            Other
-          </Button>
-          <Button
-            className={filters.categories.other ? 'other selected' : 'other'}
-            onClick={() => this.handleCategoryClick('other')}
-          >
-            Other
-          </Button>
-          <Button
-            className={filters.categories.other ? 'other selected' : 'other'}
-            onClick={() => this.handleCategoryClick('other')}
-          >
-            Other
-          </Button>
-          <Button
-            className={filters.categories.other ? 'other selected' : 'other'}
-            onClick={() => this.handleCategoryClick('other')}
-          >
-            Other
-          </Button>
-          <Button
-            className={filters.categories.other ? 'other selected' : 'other'}
-            onClick={() => this.handleCategoryClick('other')}
-          >
-            Other
-          </Button>
-          <Button
-            className={filters.categories.other ? 'other selected' : 'other'}
-            onClick={() => this.handleCategoryClick('other')}
-          >
-            Other
           </Button>
           <Button
             className={filters.categories.other ? 'other selected' : 'other'}
