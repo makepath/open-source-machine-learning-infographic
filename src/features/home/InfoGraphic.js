@@ -63,7 +63,7 @@ export class InfoGraphic extends Component {
         <main>
           <a
             id="github-fork-me"
-            href="https://github.com/makepath/open-source-gis-infographic"
+            href="https://github.com/makepath/open-source-machine-learning-infographic/"
             target="#blank"
           >
             <img
@@ -76,7 +76,7 @@ export class InfoGraphic extends Component {
           </a>
           <h1>
             A History of
-            <br /> Open Source GIS Tools
+            <br /> Open Source Machine Learning Tools
           </h1>
           <h3>Click on the name of the tool to learn more about it.</h3>
           <Filters />
@@ -89,19 +89,22 @@ export class InfoGraphic extends Component {
               : { transition: '0.5s ease-in-out' }
           }
         >
-          {filteredTools.length > 0 ? 
+          {filteredTools.length > 0 ? (
             filteredTools.map((tool, index) => (
-            <Tool
-              key={`${tool.name}-${tool.releaseYear}`}
-              tool={tool}
-              side={index % 2 === 0 ? 'left' : 'right'}
-              first={index === 0}
-              last={index === filteredTools.length - 1}
-              secondLast={index === filteredTools.length - 2}
-              openPopup={this.handleOpenPopup}
-              selected={tool.name === selectedTool && popupOpen}
-            />
-          )) : <span className="nothing-found">No tools found</span>}
+              <Tool
+                key={`${tool.name}-${tool.releaseYear}`}
+                tool={tool}
+                side={index % 2 === 0 ? 'left' : 'right'}
+                first={index === 0}
+                last={index === filteredTools.length - 1}
+                secondLast={index === filteredTools.length - 2}
+                openPopup={this.handleOpenPopup}
+                selected={tool.name === selectedTool && popupOpen}
+              />
+            ))
+          ) : (
+            <span className="nothing-found">No tools found</span>
+          )}
           <ToolPopup
             open={popupOpen}
             side={selectedToolSide}
