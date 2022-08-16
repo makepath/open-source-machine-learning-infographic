@@ -2,7 +2,7 @@
   {
     "name": "Weka",
     "url": "https://www.cs.waikato.ac.nz/ml/weka/",
-    "category": "other",
+    "category": "any",
     "type": "File format",
     "image": null,
     "description": "Weka includes tools for data preparation, classification, regression, clustering, and other machine learning algorithms used for data mining.",

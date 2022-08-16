@@ -25,9 +25,9 @@ export class InfoGraphic extends Component {
   handleOpenPopup = (tool, side, offsets, isLast) => {
     const { popupOpen, selectedTool } = this.props.store;
     if (tool === selectedTool && popupOpen) {
-      this.hanldeClosePopup();
+      this.handleClosePopup();
     } else if (popupOpen) {
-      this.hanldeClosePopup();
+      this.handleClosePopup();
       window.setTimeout(() => {
         this.props.actions.openPopup(tool, side, offsets, isLast);
       }, 400);
@@ -36,7 +36,7 @@ export class InfoGraphic extends Component {
     }
   };
 
-  hanldeClosePopup = () => {
+  handleClosePopup = () => {
     this.props.actions.closePopup();
   };
 
@@ -111,7 +111,7 @@ export class InfoGraphic extends Component {
             {...selectedToolInfo}
             offsetTop={popupOffsetTop}
             offsetHorizontal={offsetHorizontal}
-            closePopup={this.hanldeClosePopup}
+            closePopup={this.handleClosePopup}
           />
         </div>
         <footer>

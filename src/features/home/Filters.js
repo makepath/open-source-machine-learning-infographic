@@ -30,7 +30,7 @@ export class Filters extends Component {
           <TextField
             id="search"
             placeholder="Search"
-            onChange={(event) => this.handleSearchInputChange(event.target.value)}
+            onChange={event => this.handleSearchInputChange(event.target.value)}
             InputProps={{
               disableUnderline: true,
               endAdornment: <SearchIcon />,
@@ -57,6 +57,48 @@ export class Filters extends Component {
             onClick={() => this.handleCategoryClick('both')}
           >
             Both
+          </Button>
+          <Button
+            className={filters.categories.other ? 'other selected' : 'other'}
+            onClick={() => this.handleCategoryClick('other')}
+          >
+            Other
+          </Button>
+          <Button
+            className={filters.categories.other ? 'other selected' : 'other'}
+            onClick={() => this.handleCategoryClick('other')}
+          >
+            Other
+          </Button>
+          <Button
+            className={filters.categories.other ? 'other selected' : 'other'}
+            onClick={() => this.handleCategoryClick('other')}
+          >
+            Other
+          </Button>
+          <Button
+            className={filters.categories.other ? 'other selected' : 'other'}
+            onClick={() => this.handleCategoryClick('other')}
+          >
+            Other
+          </Button>
+          <Button
+            className={filters.categories.other ? 'other selected' : 'other'}
+            onClick={() => this.handleCategoryClick('other')}
+          >
+            Other
+          </Button>
+          <Button
+            className={filters.categories.other ? 'other selected' : 'other'}
+            onClick={() => this.handleCategoryClick('other')}
+          >
+            Other
+          </Button>
+          <Button
+            className={filters.categories.other ? 'other selected' : 'other'}
+            onClick={() => this.handleCategoryClick('other')}
+          >
+            Other
           </Button>
           <Button
             className={filters.categories.other ? 'other selected' : 'other'}
