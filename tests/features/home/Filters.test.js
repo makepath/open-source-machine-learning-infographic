@@ -8,12 +8,10 @@ describe('home/Filters', () => {
       home: {},
       actions: {},
     };
-    const renderedComponent = shallow(
-      <Filters {...props} />
-    );
+    const renderedComponent = shallow(<Filters {...props} />);
 
-    expect(
-      renderedComponent.find('.home-filters').length
-    ).toBe(1);
+    expect(renderedComponent.find('.home-filters').length).toBe(1);
   });
 });
+//TODO: add tests to see if we are received the correct amount of tools
+//Popup renders and closes

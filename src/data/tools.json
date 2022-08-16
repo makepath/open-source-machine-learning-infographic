@@ -2,7 +2,7 @@
   {
     "name": "Weka",
     "url": "https://www.cs.waikato.ac.nz/ml/weka/",
-    "category": "any",
+    "category": "other",
     "type": "File format",
     "image": null,
     "description": "Weka includes tools for data preparation, classification, regression, clustering, and other machine learning algorithms used for data mining.",
@@ -15,12 +15,12 @@
   {
     "name": "Shogun",
     "url": "https://github.com/shogun-toolbox/shogun",
-    "category": "both",
+    "category": "other",
     "type": "GUI",
     "image": "https://gisgeography.com/wp-content/uploads/2016/07/GRASS-GIS-logo-2.png",
     "description": "Shogun offers methods for efficient and unified machine learning.",
     "releaseYear": "1999",
-    "language": ["Python", "Octave", "Java/Scala", "Ruby", "C#", "R", "Perl", "JavaScript"],
+    "language": ["Python", "Octave", "Java", "Scala", "Ruby", "C#", "R", "Perl", "JavaScript"],
     "creators": "NumFOCUS",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Classical Machine Learning"]

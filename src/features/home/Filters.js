@@ -64,20 +64,20 @@ export class Filters extends Component {
             className={filters.categories.both ? 'both selected' : 'both'}
             onClick={() => this.handleCategoryClick('both')}
           >
-            Both
+            Python
           </Button>
           <Button
             className={filters.categories.other ? 'other selected' : 'other'}
             onClick={() => this.handleCategoryClick('other')}
           >
-            Other
+            JavaScript
           </Button>
-          <Button
+          {/* <Button
             className={filters.categories.other ? 'other selected' : 'other'}
             onClick={() => this.handleCategoryClick('other')}
           >
             Other
-          </Button>
+          </Button> */}
         </div>
       </div>
     );
