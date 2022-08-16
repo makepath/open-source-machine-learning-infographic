@@ -25,24 +25,12 @@ export class Filters extends Component {
   render() {
     const { filters } = this.props.store;
 
-    const languages = this.props.store.tools.reduce((acc, curr) => {
-      if (!acc.includes(curr.language)) {
-        acc.push(curr.language);
-      }
-      return acc;
-    }, []);
-
-    //Get a list of languages inside languages array
-    const languageOptions = languages.map(language => (
-      <Button
-        key={language}
-        variant="contained"
-        color="primary"
-        onClick={() => this.handleCategoryClick(language)}
-      >
-        {language}
-      </Button>
-    ));
+    // const languages = this.props.store.tools.reduce((acc, curr) => {
+    //   if (!acc.includes(curr.language)) {
+    //     acc.push(curr.language);
+    //   }
+    //   return acc;
+    // }, []);
 
     return (
       <div className="filters">
