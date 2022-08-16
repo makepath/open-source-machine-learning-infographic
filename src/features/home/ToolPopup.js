@@ -76,7 +76,7 @@ export default class ToolPopup extends Component {
             </span>
             {fileFormats && fileFormats.length > 0 ? (
               <span>
-                <h4>File format(s):</h4>
+                <h4>Type{fileFormats.length > 1 ? 's' : ''}:</h4>
                 <h5>{fileFormats.reduce((acc, curr) => (acc = acc + ' ' + curr), '')}</h5>
               </span>
             ) : null}
