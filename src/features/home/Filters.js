@@ -59,13 +59,13 @@ export class Filters extends Component {
             fullWidth={true}
           />
         </div>
+        <h4>Language</h4>
         <div className="language">
-          <h4>Language</h4>
           {languages.map(language => (
             <Button
               key={language}
               className={
-                filters.categories.language
+                filters.categories[language]
                   ? `${this.normalizeClassName(language)} selected`
                   : this.normalizeClassName(language)
               }
