@@ -20,24 +20,33 @@ export default class Tool extends Component {
     return { offsetTop, offsetHorizontal };
   };
 
+  normalizeClassName = language =>
+    language
+      .toLowerCase()
+      .replace('#', 'sharp')
+      .replace('++', 'plusplus');
+
   render() {
     const { side, tool, first, last, secondLast, openPopup, selected } = this.props;
-    const categoryLabel = tool.category.charAt(0).toUpperCase() + tool.category.slice(1);
+    // const categoryLabel = tool.category.charAt(0).toUpperCase() + tool.category.slice(1);
+    const languageLabel = tool.language.length > 1 ? 'Multi-language' : tool.language;
     return (
       <div className="home-tool">
         <div
-          className={`tool ${side} ${tool.category}${selected ? ' selected' : ''}`}
+          className={`tool ${side} ${
+            tool.language.length > 1 ? 'multi' : this.normalizeClassName(tool.language[0])
+          }${selected ? ' selected' : ''}`}
           onClick={event => openPopup(tool.name, side, this.getOffsets(event.target, side), last)}
         >
           {side === 'left' ? (
             <div className="text left">
               <h3>{tool.releaseYear}</h3>
               <h2>{tool.name}</h2>
-              <Chip className="category" label={categoryLabel} />
+              <Chip className="category" label={languageLabel} />
             </div>
           ) : (
             <div className="text right">
-              <Chip className="category" label={categoryLabel} />
+              <Chip className="category" label={languageLabel} />
               <h2>{tool.name}</h2>
               <h3>{tool.releaseYear}</h3>
             </div>

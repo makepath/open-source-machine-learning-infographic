@@ -52,55 +52,24 @@
         &.right {
             margin-top: 0.75rem;
         }
-        &.vector {
-            background: linear-gradient(90deg, #e09f2d 30%, transparent 90%);
-            border-image: linear-gradient(90deg, #e09f2d 0%, transparent 100%);
+            background: linear-gradient(90deg, #00a18c 30%, transparent 90%);
+            border-image: linear-gradient(90deg, #00a18c 0%, transparent 100%);
             border-image-slice: 1;
             &.right {
-                background: linear-gradient(-90deg, #e09f2d 30%, transparent 90%);
-                border-image-source: linear-gradient(-90deg, #e09f2d 0%, transparent 100%);
+                background: linear-gradient(-90deg, #00a18c 30%, transparent 90%);
+                border-image-source: linear-gradient(-90deg, #00a18c 0%, transparent 100%);
             }
             &.selected,
             &:hover {
-                background-color: #e09f2d;
+                background-color: #00a18c;
             }
             .category {
-                background-color: #e09f2d;
+                background-color: #00a18c;
             }
-        }
-        &.raster {
-            background: linear-gradient(90deg, #1fb5e8 30%, transparent 95%);
-            border-image: linear-gradient(90deg, #1fb5e8 0%, transparent 100%);
-            border-image-slice: 1;
-            &.right {
-                background: linear-gradient(-90deg, #1fb5e8 30%, transparent 95%);
-                border-image-source: linear-gradient(-90deg, #1fb5e8 0%, transparent 100%);
-            }
-            &.selected,
-            &:hover {
-                background-color: #1fb5e8;
-            }
-            .category {
-                background-color: #1fb5e8;
-            }
-        }
-        &.both {
-            background: linear-gradient(90deg, #6fbf4e 30%, transparent 95%);
-            border-image: linear-gradient(90deg, #6fbf4e 0%, transparent 100%);
-            border-image-slice: 1;
-            &.right {
-                background: linear-gradient(-90deg, #6fbf4e 30%, transparent 95%);
-                border-image-source: linear-gradient(-90deg, #6fbf4e 0%, transparent 100%);
-            }
-            &.selected,
-            &:hover {
-                background-color: #6fbf4e;
-            }
-            .category {
-                background-color: #6fbf4e;
-            }
-        }
-        &.other {
+
+
+
+        &.multi {
             background: linear-gradient(90deg, #c63b96 30%, transparent 95%);
             border-image: linear-gradient(90deg, #c63b96 0%, transparent 100%);
             border-image-slice: 1;
@@ -114,6 +83,109 @@
             }
             .category {
                 background-color: #c63b96;
+            }
+        }
+
+        // Listed languages
+        &.python {
+            background: linear-gradient(90deg, #ffd141 30%, transparent 95%);
+            border-image: linear-gradient(90deg, #ffd141 0%, transparent 100%);
+            border-image-slice: 1;
+            &.right {
+                background: linear-gradient(-90deg, #ffd141 30%, transparent 95%);
+                border-image-source: linear-gradient(-90deg, #ffd141 0%, transparent 100%);
+            }
+            &.selected,
+            &:hover {
+                background-color: #ffd141;
+            }
+            .category {
+                background-color: #ffd141;
+            }
+        }
+
+        &.java {
+            background: linear-gradient(90deg, #f89916 30%, transparent 95%);
+            border-image: linear-gradient(90deg, #f89916 0%, transparent 100%);
+            border-image-slice: 1;
+            &.right {
+                background: linear-gradient(-90deg, #f89916 30%, transparent 95%);
+                border-image-source: linear-gradient(-90deg, #f89916 0%, transparent 100%);
+            }
+            &.selected,
+            &:hover {
+                background-color: #f89916;
+            }
+            .category {
+                background-color: #f89916;
+            }
+        }
+
+        &.cplusplus {
+            background: linear-gradient(90deg, #659db3 30%, transparent 95%);
+            border-image: linear-gradient(90deg, #659db3 0%, transparent 100%);
+            border-image-slice: 1;
+            &.right {
+                background: linear-gradient(-90deg, #659db3 30%, transparent 95%);
+                border-image-source: linear-gradient(-90deg, #659db3 0%, transparent 100%);
+            }
+            &.selected,
+            &:hover {
+                background-color: #659db3;
+            }
+            .category {
+                background-color: #659db3;
+            }
+        }
+
+        &.csharp {
+            background: linear-gradient(90deg, #159f1f 30%, transparent 95%);
+            border-image: linear-gradient(90deg, #159f1f 0%, transparent 100%);
+            border-image-slice: 1;
+            &.right {
+                background: linear-gradient(-90deg, #159f1f 30%, transparent 95%);
+                border-image-source: linear-gradient(-90deg, #159f1f 0%, transparent 100%);
+            }
+            &.selected,
+            &:hover {
+                background-color: #159f1f;
+            }
+            .category {
+                background-color: #159f1f;
+            }
+        }
+
+        &.r {
+            background: linear-gradient(90deg, #1f69bd 30%, transparent 95%);
+            border-image: linear-gradient(90deg, #1f69bd 0%, transparent 100%);
+            border-image-slice: 1;
+            &.right {
+                background: linear-gradient(-90deg, #1f69bd 30%, transparent 95%);
+                border-image-source: linear-gradient(-90deg, #1f69bd 0%, transparent 100%);
+            }
+            &.selected,
+            &:hover {
+                background-color: #1f69bd;
+            }
+            .category {
+                background-color: #1f69bd;
+            }
+        }
+
+        &.go {
+            background: linear-gradient(90deg, #00add8 30%, transparent 95%);
+            border-image: linear-gradient(90deg, #00add8 0%, transparent 100%);
+            border-image-slice: 1;
+            &.right {
+                background: linear-gradient(-90deg, #00add8 30%, transparent 95%);
+                border-image-source: linear-gradient(-90deg, #00add8 0%, transparent 100%);
+            }
+            &.selected,
+            &:hover {
+                background-color: #00add8;
+            }
+            .category {
+                background-color: #00add8;
             }
         }
     }
