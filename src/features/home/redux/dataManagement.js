@@ -40,7 +40,9 @@ export function reducer(state, action) {
       if (state.filters.categories) {
         Object.entries(state.filters.categories).forEach(entry => {
           if (entry[1]) {
-            filteredTools = filteredTools.filter(tool => tool.category === entry[0]);
+            filteredTools = filteredTools.filter(tool => {
+              return tool.language.includes(entry[0]);
+            });
           }
         });
       }

@@ -25,39 +25,19 @@ export class Filters extends Component {
 
   render() {
     const { filters } = this.props.store;
-    const fileFormat = tools.reduce((acc, curr) => {
-      curr.fileFormats.forEach(fileFormat =>
-        !acc.includes(fileFormat) ? acc.push(fileFormat) : null,
-      );
-      return acc;
-    }, []);
-    console.log(fileFormat);
+    // const fileFormat = tools.reduce((acc, curr) => {
+    //   curr.fileFormats.forEach(fileFormat =>
+    //     !acc.includes(fileFormat) ? acc.push(fileFormat) : null,
+    //   );
+    //   return acc;
+    // }, []);
+    // console.log(fileFormat);
 
     const languages = tools.reduce((acc, curr) => {
-      curr.language.forEach(lang =>
-        !acc.includes(lang.toLowerCase()) ? acc.push(lang.toLowerCase()) : null,
-      );
+      curr.language.forEach(lang => (!acc.includes(lang) ? acc.push(lang) : null));
       return acc;
     }, []);
-    console.log(languages);
-
-    // const languages = this.props.store.tools.reduce((acc, curr) => {
-    //   if (!acc.includes(curr.language)) {
-    //     acc.push(curr.language);
-    //   }
-    //   return acc;
-    // }, []);
-
     // console.log(languages);
-
-    // const bostinha = this.props.store.tools.reduce((acc, curr) => {
-    //   if (!acc.includes(curr.fileFormats)) {
-    //     acc.push(curr.fileFormats);
-    //   }
-    //   return acc;
-    // }, []);
-
-    // console.log(bostinha);
 
     return (
       <div className="filters">
@@ -78,7 +58,11 @@ export class Filters extends Component {
           {languages.map(language => (
             <Button
               key={language}
-              className={filters.categories.language ? `${language} selected` : language}
+              className={
+                filters.categories.language
+                  ? `${language.toLowerCase()} selected`
+                  : language.toLowerCase()
+              }
               onClick={() => this.handleCategoryClick(language)}
             >
               {language}
