@@ -23,6 +23,12 @@ export class Filters extends Component {
     this.props.actions.filterTools();
   };
 
+  normalizeClassName = language =>
+    language
+      .toLowerCase()
+      .replace('#', 'sharp')
+      .replace('++', 'plusplus');
+
   render() {
     const { filters } = this.props.store;
     // const fileFormat = tools.reduce((acc, curr) => {
@@ -60,8 +66,8 @@ export class Filters extends Component {
               key={language}
               className={
                 filters.categories.language
-                  ? `${language.toLowerCase()} selected`
-                  : language.toLowerCase()
+                  ? `${this.normalizeClassName(language)} selected`
+                  : this.normalizeClassName(language)
               }
               onClick={() => this.handleCategoryClick(language)}
             >

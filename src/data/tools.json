@@ -20,7 +20,7 @@
     "image": "https://gisgeography.com/wp-content/uploads/2016/07/GRASS-GIS-logo-2.png",
     "description": "Shogun offers methods for efficient and unified machine learning.",
     "releaseYear": "1999",
-    "language": ["Python", "Octave", "Java", "Scala", "Ruby", "Csharp", "R", "Perl", "JavaScript"],
+    "language": ["Python", "Octave", "Java", "Scala", "Ruby", "C#", "R", "Perl", "JavaScript"],
     "creators": "NumFOCUS",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Classical Machine Learning"]
@@ -33,7 +33,7 @@
     "image": "https://www.esipfed.org/wp-content/uploads/2014/05/logo_bluegreen_txt.jpg",
     "description": "OpenCV is a computer vision and machine learning library that provides common infrastructure to accelerate machine perception.",
     "releaseYear": "2000",
-    "language": ["CPlusPlus", "Python", "Java", "MATLAB"],
+    "language": ["C++", "Python", "Java", "MATLAB"],
     "creators": "Intel",
     "developerQuote": "",
     "fileFormats": ["Data preparation", "Feature engineering"]
@@ -46,7 +46,7 @@
     "image": "https://registry.opendata.aws/img/logos/unidata-logo.png",
     "description": "Torch is a scientific computing framework that supports machine learning algorithms on GPUs.",
     "releaseYear": "2002",
-    "language": ["Lua", "LuaJIT", "C", "CUDA", "CPlusPlus"],
+    "language": ["Lua", "LuaJIT", "C", "CUDA", "C++"],
     "creators": "Ronan Collobert, Samy Bengio, Johnny Mariéthoz",
     "developerQuote": "",
     "fileFormats": ["Model development", "Neural Networks", "Predictions", "Training"]
@@ -111,7 +111,7 @@
     "image": "https://reference.wolfram.com/language/ref/format/Files/GeoTIFF.en/O_1.png",
     "description": "Accord.NET is a machine learning framework combined with audio and image processing libraries.",
     "releaseYear": "2007",
-    "language": ["Csharp"],
+    "language": ["C#"],
     "creators": "Cesar De Souza",
     "developerQuote": "",
     "fileFormats": ["Data preparation", "Model optimization", "Classical Machine Learning"]
@@ -137,7 +137,7 @@
     "image": "https://en.wikipedia.org/wiki/Geography_Markup_Language#/media/File:Simple_vector_map.svg",
     "description": "Caffe provides a deep learning framework designed with expression, speed, and modularity.",
     "releaseYear": "2013",
-    "language": ["CPlusPlus", "Python"],
+    "language": ["C++", "Python"],
     "creators": "Berkeley AI Research",
     "developerQuote": "",
     "fileFormats": ["Model optimization", "Deep Learning"]
@@ -215,7 +215,7 @@
     "image": "",
     "description": "TensorFlow is an end-to-end platform that provides a flexible ecosystem of tools for state-of-the-art machine learning.",
     "releaseYear": "2015",
-    "language": ["Python", "CPlusPlus", "Haskell", "Java", "Go", "Rust", "JavaScript"],
+    "language": ["Python", "C++", "Haskell", "Java", "Go", "Rust", "JavaScript"],
     "creators": "Google",
     "developerQuote": "",
     "fileFormats": [
@@ -273,7 +273,7 @@
     "image": null,
     "description": "Microsoft Cognitive Toolkit is a toolkit for commercial-grade distributed deep learning. Users can combine popular model types, and implement algorithms across multiple servers and GPUs.",
     "releaseYear": "2016",
-    "language": ["Python", "CPlusPlus", "BrainScript"],
+    "language": ["Python", "C++", "BrainScript"],
     "creators": "Microsoft",
     "developerQuote": "",
     "fileFormats": ["Model development", "Model optimization", "Deep Learning", "Scaling"]
@@ -286,7 +286,7 @@
     "image": null,
     "description": "PyTorch is a machine learning framework for applications such as computer vision and natural language processing.",
     "releaseYear": "2016",
-    "language": ["Python", "CPlusPlus"],
+    "language": ["Python", "C++"],
     "creators": "Facebook AI Research",
     "developerQuote": "",
     "fileFormats": [
@@ -330,7 +330,7 @@
     "image": "https://gisgeography.com/wp-content/uploads/2016/01/SAGA-3D-Mapping-Anaglyph.png",
     "description": "Ray provides a universal API for building distributed applications.",
     "releaseYear": "2017",
-    "language": ["Python", "CPlusPlus"],
+    "language": ["Python", "C++"],
     "creators": "anyscale",
     "developerQuote": "",
     "fileFormats": ["Model development", "Model optimization", "Reinforcement Learning", "Scaling"]
@@ -343,7 +343,7 @@
     "image": "http://networkx.github.io/_static/networkx_logo.svg",
     "description": "TVM bridges productivity-focused deep learning with performance and efficiency-focused hardware backends.",
     "releaseYear": "2017",
-    "language": ["Python", "CPlusPlus"],
+    "language": ["Python", "C++"],
     "creators": "OctoML",
     "developerQuote": "",
     "fileFormats": ["Model development", "Scaling", "Deep Learning"]
