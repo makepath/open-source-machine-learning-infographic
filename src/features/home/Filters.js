@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 import { TextField, Button } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
+import tools from '../../data/tools.json';
 
 export class Filters extends Component {
   static propTypes = {
@@ -24,6 +25,19 @@ export class Filters extends Component {
 
   render() {
     const { filters } = this.props.store;
+    const fileFormat = tools.reduce((acc, curr) => {
+      curr.fileFormats.forEach(fileFormat =>
+        !acc.includes(fileFormat) ? acc.push(fileFormat) : null,
+      );
+      return acc;
+    }, []);
+    console.log(fileFormat);
+
+    const languages = tools.reduce((acc, curr) => {
+      curr.language.forEach(lang => (!acc.includes(lang) ? acc.push(lang) : null));
+      return acc;
+    }, []);
+    console.log(languages);
 
     // const languages = this.props.store.tools.reduce((acc, curr) => {
     //   if (!acc.includes(curr.language)) {
@@ -31,6 +45,17 @@ export class Filters extends Component {
     //   }
     //   return acc;
     // }, []);
+
+    // console.log(languages);
+
+    // const bostinha = this.props.store.tools.reduce((acc, curr) => {
+    //   if (!acc.includes(curr.fileFormats)) {
+    //     acc.push(curr.fileFormats);
+    //   }
+    //   return acc;
+    // }, []);
+
+    // console.log(bostinha);
 
     return (
       <div className="filters">

@@ -276,7 +276,7 @@
     "language": ["Python", "C++", "BrainScript"],
     "creators": "Microsoft",
     "developerQuote": "",
-    "fileFormats": ["Model development", "Model optimization", "Deep Learning, Scaling"]
+    "fileFormats": ["Model development", "Model optimization", "Deep Learning", "Scaling"]
   },
   {
     "name": "PyTorch",
@@ -471,7 +471,7 @@
     "image": "https://lh3.googleusercontent.com/a4tBqdzeHk_lIsycjyr4KrHQH7W46xwPuboq5vxdNNbcvi6wOTDtD6ikspdoOmXOTpyZ=s360-rw",
     "description": "aesara lets users define, optimize, and evaluate mathematical expressions with multi-dimensional arrays.",
     "releaseYear": "2020",
-    "language": "Python",
+    "language": ["Python"],
     "creators": "Aesara Contributors",
     "developerQuote": "",
     "fileFormats": ["Math"]
