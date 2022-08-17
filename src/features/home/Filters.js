@@ -31,19 +31,10 @@ export class Filters extends Component {
 
   render() {
     const { filters } = this.props.store;
-    // const fileFormat = tools.reduce((acc, curr) => {
-    //   curr.fileFormats.forEach(fileFormat =>
-    //     !acc.includes(fileFormat) ? acc.push(fileFormat) : null,
-    //   );
-    //   return acc;
-    // }, []);
-    // console.log(fileFormat);
-
     const languages = tools.reduce((acc, curr) => {
       curr.language.forEach(lang => (!acc.includes(lang) ? acc.push(lang) : null));
       return acc;
     }, []);
-    // console.log(languages);
 
     return (
       <div className="filters">
@@ -74,30 +65,6 @@ export class Filters extends Component {
               {language}
             </Button>
           ))}
-          {/* <Button
-            className={filters.categories.vector ? 'vector selected' : 'vector'}
-            onClick={() => this.handleCategoryClick('vector')}
-          >
-            Vector
-          </Button>
-          <Button
-            className={filters.categories.raster ? 'raster selected' : 'raster'}
-            onClick={() => this.handleCategoryClick('raster')}
-          >
-            Raster
-          </Button>
-          <Button
-            className={filters.categories.both ? 'both selected' : 'both'}
-            onClick={() => this.handleCategoryClick('both')}
-          >
-            Python
-          </Button>
-          <Button
-            className={filters.categories.other ? 'other selected' : 'other'}
-            onClick={() => this.handleCategoryClick('other')}
-          >
-            JavaScript
-          </Button> */}
         </div>
       </div>
     );
