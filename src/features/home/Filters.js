@@ -34,7 +34,9 @@ export class Filters extends Component {
     console.log(fileFormat);
 
     const languages = tools.reduce((acc, curr) => {
-      curr.language.forEach(lang => (!acc.includes(lang) ? acc.push(lang) : null));
+      curr.language.forEach(lang =>
+        !acc.includes(lang.toLowerCase()) ? acc.push(lang.toLowerCase()) : null,
+      );
       return acc;
     }, []);
     console.log(languages);
@@ -71,9 +73,18 @@ export class Filters extends Component {
             fullWidth={true}
           />
         </div>
-        <div className="categories">
+        <div className="language">
           <h4>Language</h4>
-          <Button
+          {languages.map(language => (
+            <Button
+              key={language}
+              className={filters.categories.language ? `${language} selected` : language}
+              onClick={() => this.handleCategoryClick(language)}
+            >
+              {language}
+            </Button>
+          ))}
+          {/* <Button
             className={filters.categories.vector ? 'vector selected' : 'vector'}
             onClick={() => this.handleCategoryClick('vector')}
           >
@@ -96,12 +107,6 @@ export class Filters extends Component {
             onClick={() => this.handleCategoryClick('other')}
           >
             JavaScript
-          </Button>
-          {/* <Button
-            className={filters.categories.other ? 'other selected' : 'other'}
-            onClick={() => this.handleCategoryClick('other')}
-          >
-            Other
           </Button> */}
         </div>
       </div>

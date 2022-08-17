@@ -6,8 +6,9 @@
     padding: 3rem 0;
     width: 100%;
     background-color: #1d3468;
-    .categories {
+    .language {
         @include flex-container;
+        flex-wrap: wrap;
         h4 {
             font-size: 1.5rem;
             padding-top: 6px;
@@ -15,11 +16,28 @@
             margin: 0 1rem 0 0;
             text-transform: uppercase;
         }
-        .vector,
-        .raster,
-        .both,
-        .other {
-            font-size: 1rem;
+        .java,
+        .python,
+        .octave,
+        .scala,
+        .ruby,
+        .csharp,
+        .r,
+        .perl,
+        .javascript,
+        .cplusplus,
+        .matlab,
+        .lua,
+        .luajit,
+        .c,
+        .cuda,
+        .go,
+        .json,
+        .haskell,
+        .rust,
+        .brainscript
+         {
+            font-size: .80rem;
             font-family: Acumin-Bold;
             color: white;
             margin: 4px 4px;
@@ -30,39 +48,62 @@
             &:last-child {
                 margin-right: 2rem;
             }
-        }
-        .vector {
-            border-color: #e09f2d;
-            color: #e09f2d;
             &.selected {
-                background-color: #e09f2d;
+                background-color: gray;
                 border-color: white;
                 color: white;
             }
         }
-        .raster {
-            border-color: #1fb5e8;
-            color: #1fb5e8;
+        .python {
+            border-color: #ffd141;
+            color: #ffd141;
             &.selected {
-                background-color: #1fb5e8;
+                background-color: #ffd141;
                 border-color: white;
                 color: white;
             }
         }
-        .both {
-            border-color: #6fbf4e;
-            color: #6fbf4e;
+        .java {
+            border-color: #f89916;
+            color: #f89916;
             &.selected {
-                background-color: #6fbf4e;
+                background-color: #f89916;
                 border-color: white;
                 color: white;
             }
         }
-        .other {
-            border-color: #c63b96;
-            color: #c63b96;
+        .cplusplus {
+            border-color: #659db3;
+            color: #659db3;
             &.selected {
-                background-color: #c63b96;
+                background-color: #659db3;
+                border-color: white;
+                color: white;
+            }
+        }
+        .csharp {
+            border-color: #159f1f;
+            color: #159f1f;
+            &.selected {
+                background-color: #159f1f;
+                border-color: white;
+                color: white;
+            }
+        }
+        .r {
+            border-color: #1f69bd;
+            color: #1f69bd;
+            &.selected {
+                background-color: #1f69bd;
+                border-color: white;
+                color: white;
+            }
+        }
+        .go {
+            border-color: #00add8;
+            color: #00add8;
+            &.selected {
+                background-color: #00add8;
                 border-color: white;
                 color: white;
             }
@@ -91,33 +132,65 @@
 }
 
 @media (max-width: 420px) {
-    .categories {
+    .language {
         flex-wrap: wrap;
         h4 {
             width: 100%;
             margin-bottom: 2rem !important;
         }
-        .vector,
-        .raster,
-        .both,
-        .other {
-            font-size: 10px !important;
+        .java,
+        .python,
+        .octave,
+        .scala,
+        .ruby,
+        .csharp,
+        .r,
+        .perl,
+        .javascript,
+        .cplusplus,
+        .matlab,
+        .lua,
+        .luajit,
+        .c,
+        .cuda,
+        .go,
+        .json,
+        .haskell,
+        .rust,
+        .brainscript {
+            font-size: 8px !important;
             margin: 0 !important;
         }
     }
 }
 
 @media (max-width: 280px) {
-    .categories {
+    .language {
         flex-wrap: wrap;
         h4 {
             width: 100%;
             margin-bottom: 2rem !important;
         }
-        .vector,
-        .raster,
-        .both,
-        .other {
+        .java,
+        .python,
+        .octave,
+        .scala,
+        .ruby,
+        .csharp,
+        .r,
+        .perl,
+        .javascript,
+        .cplusplus,
+        .matlab,
+        .lua,
+        .luajit,
+        .c,
+        .cuda,
+        .go,
+        .json,
+        .haskell,
+        .rust,
+        .brainscript {
             font-size: 8px !important;
             margin: 0 !important;
             min-width: 56px !important;
