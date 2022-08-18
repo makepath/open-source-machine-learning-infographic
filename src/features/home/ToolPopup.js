@@ -71,7 +71,7 @@ export default class ToolPopup extends Component {
               <h5>{releaseYear}</h5>
             </span>
             <span>
-              <h4>Language{language.length > 1 ? 's' : ''}</h4>
+              <h4>Language{language ? (language.length > 1 ? 's' : '') : ''}</h4>
               <h5>
                 {language
                   ? language.map((lang, i, arr) => {
