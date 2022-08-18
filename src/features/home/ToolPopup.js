@@ -74,8 +74,8 @@ export default class ToolPopup extends Component {
               <h4>Language(s):</h4>
               <h5>
                 {language
-                  ? language.map(lang => {
-                      if (lang[language.length]) {
+                  ? language.map((lang, i, arr) => {
+                      if (arr.length - 1 === i) {
                         return lang + '.';
                       } else {
                         return lang + ', ';
@@ -91,7 +91,17 @@ export default class ToolPopup extends Component {
             {fileFormats && fileFormats.length > 0 ? (
               <span>
                 <h4>Type{fileFormats.length > 1 ? 's' : ''}:</h4>
-                <h5>{fileFormats.reduce((acc, curr) => (acc = acc + ' ' + curr), '')}</h5>
+                <h5>
+                  {fileFormats
+                    ? fileFormats.map((format, i, arr) => {
+                        if (arr.length - 1 === i) {
+                          return format + '.';
+                        } else {
+                          return format + ', ';
+                        }
+                      })
+                    : null}
+                </h5>
               </span>
             ) : null}
             {developerQuote ? (
