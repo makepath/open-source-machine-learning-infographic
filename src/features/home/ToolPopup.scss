@@ -7,6 +7,9 @@
   margin-top: 7rem;
   border: 6px solid #1f285c;
   z-index: 1000;
+  & p, span {
+    cursor: default;
+  }
   &.right {
     right: 0;
     .box {
@@ -78,6 +81,7 @@
         justify-content: flex-start;
         h4,
         h5 {
+          min-width: 25%;
           margin: 0.25rem 0;
           font-size: 1.2rem;
         }

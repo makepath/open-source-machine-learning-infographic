@@ -20,6 +20,9 @@
     .language {
         @include flex-container;
         flex-wrap: wrap;
+        padding: 1.5rem;
+        justify-content: center;
+        max-width: 1080px;
         .java,
         .python,
         .octave,
@@ -49,9 +52,6 @@
             padding: 0.5rem 0 0.25rem 0;
             text-transform: uppercase;
             border: 2px solid white;
-            &:last-child {
-                margin-right: 2rem;
-            }
             &.selected {
                 background-color: darkgray;
                 border-color: white;
