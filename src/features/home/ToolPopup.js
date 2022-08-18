@@ -67,23 +67,43 @@ export default class ToolPopup extends Component {
             </a>
             <p>{description}</p>
             <span>
-              <h4>Date Started:</h4>
+              <h4>Date Started</h4>
               <h5>{releaseYear}</h5>
             </span>
             <span>
-              <h4>Language(s):</h4>
-              <h5>{language}</h5>
+              <h4>Language{language ? (language.length > 1 ? 's' : '') : ''}</h4>
+              <h5>
+                {language
+                  ? language.map((lang, i, arr) => {
+                      if (arr.length - 1 === i) {
+                        return lang + '.';
+                      } else {
+                        return lang + ', ';
+                      }
+                    })
+                  : null}
+              </h5>
+            </span>
+            <span>
+              <h4>Creator(s)</h4>
+              <h5>{creators}</h5>
             </span>
             {fileFormats && fileFormats.length > 0 ? (
               <span>
-                <h4>Type{fileFormats.length > 1 ? 's' : ''}:</h4>
-                <h5>{fileFormats.reduce((acc, curr) => (acc = acc + ' ' + curr), '')}</h5>
+                <h4>Type{fileFormats.length > 1 ? 's' : ''}</h4>
+                <h5>
+                  {fileFormats
+                    ? fileFormats.map((format, i, arr) => {
+                        if (arr.length - 1 === i) {
+                          return format + '.';
+                        } else {
+                          return format + ', ';
+                        }
+                      })
+                    : null}
+                </h5>
               </span>
             ) : null}
-            <span>
-              <h4>Creator(s):</h4>
-              <h5>{creators}</h5>
-            </span>
             {developerQuote ? (
               <span>
                 <i>{developerQuote}</i>
