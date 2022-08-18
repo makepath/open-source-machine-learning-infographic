@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "65c0c80288e439829021",
-    "url": "/open-source-machine-learning-infographic/static/css/main.81cd7c18.chunk.css"
+    "revision": "2fa67a04c2c19fb07549",
+    "url": "/open-source-machine-learning-infographic/static/css/main.4a8aff9c.chunk.css"
   },
   {
-    "revision": "65c0c80288e439829021",
-    "url": "/open-source-machine-learning-infographic/static/js/main.65c0c802.chunk.js"
+    "revision": "2fa67a04c2c19fb07549",
+    "url": "/open-source-machine-learning-infographic/static/js/main.2fa67a04.chunk.js"
   },
   {
     "revision": "5e8bda3153763d6a3143",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/open-source-machine-learning-infographic/static/js/2.3232b42c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7903754b9e5b4161e66c0b580b84900b",
+    "revision": "b1ba89020a496e39b6ec709f3de89567",
     "url": "/open-source-machine-learning-infographic/index.html"
   }
 ];
