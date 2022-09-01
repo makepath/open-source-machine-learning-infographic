@@ -9,7 +9,7 @@
     "releaseYear": "1993",
     "language": ["Java"],
     "creators": "University of Waikato, NZ",
-    "developerQuote": "",
+    "developerQuote": "\"Waikato Environment for Knowledge Analysis (Weka), developed at the University of Waikato, New Zealand, is open source software in Java that contains a collection of visualization tools and algorithms for machine learning together with graphical user interfaces for easy access to these functions.\" - Professor Albert Bifet",
     "fileFormats": ["Data preparation", "Model optimization", "Classical Machine Learning"]
   },
   {
