@@ -20,6 +20,9 @@
     .language {
         @include flex-container;
         flex-wrap: wrap;
+        padding: 1.5rem;
+        justify-content: center;
+        max-width: 1080px;
         .java,
         .python,
         .octave,
@@ -49,9 +52,6 @@
             padding: 0.5rem 0 0.25rem 0;
             text-transform: uppercase;
             border: 2px solid white;
-            &:last-child {
-                margin-right: 2rem;
-            }
             &.selected {
                 background-color: darkgray;
                 border-color: white;
@@ -108,6 +108,132 @@
             color: #00add8;
             &.selected {
                 background-color: #00add8;
+                border-color: white;
+                color: white;
+            }
+        }
+        .octave {
+            border-color: #D45500;
+            color: #D45500;
+            &.selected {
+                background-color: #D45500;
+                border-color: white;
+                color: white;
+            }
+        }
+        .scala {
+            border-color: #DF311D;
+            color: #DF311D;
+            &.selected {
+                background-color: #DF311D;
+                border-color: white;
+                color: white;
+            }
+        }
+        .ruby {
+            border-color: #b50a01;
+            color: #b50a01;
+            &.selected {
+                background-color: #b50a01;
+                border-color: white;
+                color: white;
+            }
+        }
+        .perl {
+            border-color: #838383;
+            color: #838383;
+            &.selected {
+                background-color: #141211;
+                border-color: white;
+                color: white;
+            }
+        }
+        .javascript {
+            border-color: #F7E120;
+            color: #F7E120;
+            &.selected {
+                background-color: #F7E120;
+                border-color: white;
+                color: white;
+            }
+        }
+        .matlab {
+            border-color: #42C7C7;
+            color: #42C7C7;
+            &.selected {
+                background-color: #42C7C7;
+                border-color: white;
+                color: white;
+            }
+        }
+        .lua {
+            border-color: #7272d6;
+            color: #7272d6;
+            &.selected {
+                background-color: #7272d6;
+                border-color: white;
+                color: white;
+            }
+        }
+        .luajit {
+            border-color: #DDA58C;
+            color: #DDA58C;
+            &.selected {
+                background-color: #DDA58C;
+                border-color: white;
+                color: white;
+            }
+        }
+        .c {
+            border-color: #AABBCD;
+            color: #AABBCD;
+            &.selected {
+                background-color: #AABBCD;
+                border-color: white;
+                color: white;
+            }
+        }
+        .cuda {
+            border-color: #83BE3A;
+            color: #83BE3A;
+            &.selected {
+                background-color: #83BE3A;
+                border-color: white;
+                color: white;
+            }
+        }
+        .json {
+            border-color: #706e6e;
+            color: #706e6e;
+            &.selected {
+                background-color: #706e6e;
+                border-color: white;
+                color: white;
+            }
+        }
+        .haskell {
+            border-color: #904D8C;
+            color: #904D8C;
+            &.selected {
+                background-color: #904D8C;
+                border-color: white;
+                color: white;
+            }
+        }
+        .rust {
+            border-color: #9d9d9d;
+            color: #9d9d9d;
+            &.selected {
+                background-color: #9d9d9d;
+                border-color: white;
+                color: white;
+            }
+        }
+        .brainscript {
+            border-color: #F25022;
+            color: #F25022;
+            &.selected {
+                background-color: #F25022;
                 border-color: white;
                 color: white;
             }
