@@ -92,7 +92,7 @@
   },
   {
     "name": "Theano",
-    "url": "https://theano-pymc.readthedocs.io/en/latest/index.html",
+    "url": "https://github.com/Theano/Theano",
     "category": "raster",
     "type": "File format",
     "image": null,
@@ -254,7 +254,7 @@
   },
   {
     "name": "Cortex",
-    "url": "https://www.cortex.dev",
+    "url": "https://github.com/cortexproject/cortex",
     "category": "vector",
     "type": "Specification",
     "image": "https://www.turismo.gal/imaxes/mdaw/mtaw/~edisp/~extract/TURGA100631~1~staticrendition/tg_sinescalar.jpg",
